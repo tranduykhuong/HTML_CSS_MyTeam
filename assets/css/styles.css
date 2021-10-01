@@ -136,7 +136,7 @@ html {
     position: relative;
     padding-top: 58%;
     margin-top: 38px;
-    background: url('/assets/img/sailboat.jpg') top center / cover no-repeat;
+    background: url('../img/sailboat.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
