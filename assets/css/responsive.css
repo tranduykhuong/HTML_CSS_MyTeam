@@ -1,0 +1,77 @@
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+@media (max-width: 740px) {
+    
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: inherit;
+    }
+
+    #nav .subnav a {
+        padding: 3px 32px;
+        line-height: 35px;
+        color: #000;
+        background: #ddd;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .header-search {
+        display: none;
+    }
+
+    #header .header-menu-mobile {
+        display: block;
+    }
+
+    #content .member-item {
+        width: 100%;
+        padding: 12px;
+    }
+
+    #content .member-item img {
+        width: 40%;
+    }
+
+    #work .work-heading,
+    #work .cust-item {
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    #price .pricing-item {
+        width: 96%;
+    }
+
+    #price .signup-btn {
+        width: 100%;
+    }
+
+    #contact .contact-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #footer .go-to-top {
+        padding: 0 3px;
+    }
+}
